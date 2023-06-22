@@ -1,0 +1,131 @@
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    width: 100%;
+
+
+}
+
+.principal{
+	background: #DAECEE;
+}
+
+.titulo-principal{
+	padding-left: 20px;
+	text-align: center;
+}
+
+.titulo-dois{
+	padding-left: 20px;
+	text-align: center;
+
+}
+ 
+.bicicleta{
+    width: 20%;
+    margin-top: 10px;
+    margin-right: 10px;
+
+ }
+
+ 
+ .container{width: 700px}
+ .container{
+ 	display: inline-block;
+ 	
+ }
+ 
+ 
+ .causa{
+ 	text-align: center;
+    margin-right: 30px; 
+}
+
+
+ .agua{
+ 	width: 20%;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+ }
+
+ .reciclar{
+ 	width: 20%;
+ 	margin-top: 10px;
+    margin-right: 10px; 
+ }
+
+ .corpo{
+ 	background: #DAECEE;
+ 	
+ }
+
+ .video{
+ 	width: 560px;
+ 	margin: 3em auto;
+ }
+
+ .botao{
+ 	padding: 10px 8px;
+ 	width: 70px;
+ 	color: #fff;
+ 	background: #70B6C0;
+ 	border: 1px solid #70B6C0;
+ 	border-radius: 5px;
+ 	text-align: center;
+ 	user-select: none;
+ 	cursor: pointer;
+ 	text-decoration: none;
+    
+ }
+
+ .botao:hover{
+ 	background: #90C7CE;
+    transition: background 1s ;
+   
+ }
+
+ .container2{
+ 	padding: 0px 20px;
+ }
+
+ 
+
+footer{
+	display: flex;
+	justify-content: center;
+	
+}
+ 
+ footer img{
+ 	width: 40px;
+ 	height: 40px;
+ }
+
+ footer a{
+ 	margin: 20px;
+ 	text-align: center;
+ }
+
+ P {
+ 	text-align: center;
+ 	font-size:  18;
+
+ }
+
+
+
+#mundo{
+    font-size: 22px;
+}
+
+
+strong{
+    color: #AF83C2;
+}
+
+
+
