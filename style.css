@@ -34,7 +34,7 @@ body{
  
  .container{width: 700px}
  .container{
- 	display: inline-block;
+ 	display: flex;
  	
  }
  
@@ -92,11 +92,6 @@ body{
  	padding: 0px 20px;
  }
 
- .rodape{
- 	align-items: center;
- }
-
- 
 
 footer{
 	display: flex;
