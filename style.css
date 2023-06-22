@@ -96,7 +96,10 @@ body{
 footer{
 	display: flex;
 	justify-content: center;
-	background: #DAECEE;
+	background-color: #DAECEE;
+	padding-top: 5em;
+	padding-bottom: 40px;
+	
 }
  
  footer img{
