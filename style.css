@@ -94,24 +94,16 @@ body{
  }
 
 
-footer{
-	display: flex;
-	justify-content: center;
-	background-color: #DAECEE;
-	padding-top: 5em;
-	padding-bottom: 40px;
+.rodape{
+	background-color:  #DAECEE;
+    in
+}
+
+.rodape-imagem{
+    height: 160px;
+    width: 900px;
 
 }
- 
- footer img{
- 	width: 40px;
- 	height: 40px;
- }
-
- footer a{
- 	margin: 20px;
- 	text-align: center;
- }
 
  P {
  	text-align: center;
