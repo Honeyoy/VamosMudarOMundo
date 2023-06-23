@@ -1,6 +1,7 @@
 
 body{
 	font-family: 'Poppins', sans-serif;
+	
 }
 
 .banner{
@@ -34,7 +35,8 @@ body{
  
  .container{width: 700px}
  .container{
- 	display: inline-block ;
+ 	display: flex ;
+ 	align-items: center;
 
  	
  }
@@ -80,6 +82,7 @@ body{
  	user-select: none;
  	cursor: pointer;
  	text-decoration: none;
+
     
  }
 
@@ -96,7 +99,7 @@ body{
 
 .rodape{
 	background-color:  #DAECEE;
-    in
+    margin-top: 40px;
 }
 
 .rodape-imagem{
