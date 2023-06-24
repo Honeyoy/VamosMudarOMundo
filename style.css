@@ -63,7 +63,7 @@ body{
 
  .corpo{
  	background: #DAECEE;
- 	
+ 	margin-top: 45px;
  }
 
  .video{
@@ -110,15 +110,20 @@ body{
 
 .gif{
 	margin-top: 20px;
-
+	float: left;
+    width: 210px;
 }
 
 
 .itens{
 	font-size: 20px;
+
 }
 
-
+.vida{
+	text-align: center;
+	background:  #DAECEE;
+}
 
 
  P {
@@ -126,7 +131,6 @@ body{
  	font-size:  18;
 
  }
-
 
 
 #mundo{
@@ -140,9 +144,9 @@ strong{
 
 ul{
 	display: inline-block;
-	vertical-align: top;
 	width: 40%;
-	margin-right: 20px;
+	vertical-align: top;
+	
 }
 
 
