@@ -113,6 +113,14 @@ body{
 
 }
 
+
+.itens{
+	font-size: 20px;
+}
+
+
+
+
  P {
  	text-align: center;
  	font-size:  18;
@@ -128,6 +136,13 @@ body{
 
 strong{
     color: #AF83C2;
+}
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	margin-right: 20px;
 }
 
 
