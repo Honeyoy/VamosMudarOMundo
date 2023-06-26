@@ -1,7 +1,10 @@
 
+
+
 body{
 	font-family: 'Poppins', sans-serif;
-	
+	background: #ffffff;
+   
 }
 
 .banner{
@@ -29,7 +32,6 @@ body{
     width: 20%;
     margin-top: 10px;
     margin-right: 10px;
-
  }
 
  
@@ -67,8 +69,10 @@ body{
  }
 
  .video{
- 	width: 560px;
+ 	height: 150px;
+    width: 260px;
  	margin: 3em auto;
+ 	text-align: center;
  }
 
  .botao{
@@ -82,31 +86,57 @@ body{
  	user-select: none;
  	cursor: pointer;
  	text-decoration: none;
-
-    
+ 
  }
+
+ 
 
  .botao:hover{
  	background: #90C7CE;
-    transition: background 1s ;
-   
+    transition: background 1s;
+
+ 
  }
+
 
  .container2{
  	padding: 0px 20px;
  }
 
 
-.rodape{
-	background-color:  #DAECEE;
-    margin-top: 40px;
+.container-main{
+	flex: 1 1 0;
+	padding-bottom: 60px;
 }
 
-.rodape-imagem{
-    height: 160px;
-    width: 900px;
+footer{
+	display: flex;
+	justify-content: center;
+	background: linear-gradient( 
+    198deg, #bbedc2 , #DAECEE, #bbebc2);
+    
+    padding-top: 5em;
+	padding-bottom: 5em;
 
 }
+
+footer img{
+ 	width: 40px;
+ 	height: 40px;
+ }
+
+footer a{
+ 	margin: 20px;
+ 	text-align: center;
+ }
+
+.texto-copy{
+ 	text-align: center;
+ 	display: flex;
+ 	justify-content: center;
+
+
+ }
 
 .gif{
 	margin-top: 20px;
@@ -146,10 +176,12 @@ strong{
 ul{
 	display: inline-block;
 	width: 40%;
-	
 	margin-left: 50px;
 
 }
 
-
+@media (max-width: 700px) {
+	 .container{
+   	width: 100%;
+}
 
