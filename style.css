@@ -180,8 +180,27 @@ ul{
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 	 .container{
    	width: 100%;
 }
 
+@media (max-width: 600){
+	.gif{
+	border: 3px solid #70B6C0;
+ 	border-radius: 5px;
+}
+
+.video{
+	 
+ 	margin: 3em auto;
+ 	width: 50%;
+ 	text-align: center;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 50px;
+}
