@@ -134,7 +134,7 @@ footer a{
  	text-align: center;
  	display: flex;
  	justify-content: center;
-
+ 	user-select: none;
 
  }
 
@@ -179,6 +179,8 @@ ul{
 	margin-left: 50px;
 
 }
+
+
 
 @media (max-width: 768px) {
 	 .container{
